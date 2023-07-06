@@ -1,0 +1,116 @@
+.header{
+    background-image: url("riot.png");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    width:1000;
+    border-bottom: 5px;
+	border-style: solid;
+    border-color: #Bd1d2e;
+    background-color: #Bd1d2e;
+    margin:0px 0px 0px 0px; 
+}
+
+.bgVid{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:50%;
+    object-fit: cover;
+    z-index: -1;
+    filter: blur(5px);
+}
+
+.background{
+    background-color: black;
+    background-repeat: no-repeat;
+    text-align: center;
+    max-height: fit-content;
+}
+.riotVid{
+    position: absolute;
+    top: 22%;
+    margin-left:29%;
+    width: 35%;
+    height:35%;
+    object-fit: cover;
+    z-index: -1;
+    clip-path: polygon(
+    0 10%,
+    5% 0,
+    90% 0,
+    100% 0%,
+    100% 90%,
+    95% 100%,
+    0% 100%,
+    0% 0%,
+    0% 10%
+  )
+}
+
+.vidBorder{
+    border: #Bd1d2e double 6px;
+    margin-top: 5%;
+    margin-left: 34%;
+    width: 35%;
+    height: 300px;
+    z-index: 1;
+    clip-path: polygon(
+    0 10%,
+    5% 0,
+    90% 0,
+    100% 0%,
+    100% 90%,
+    95% 100%,
+    0% 100%,
+    0% 0%,
+    0% 10%)
+}
+
+.gamelist{
+    background-color: white;
+    border: double grey;
+    border-radius: 20px;
+    margin: 0 220px;
+    text-align: center;
+}
+.league{
+    background-image: url("ahri.jpg");
+    background-size: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    margin: 2px;
+    padding: 0;
+    display: inline-block;
+}
+.valorant{
+    background-image: url("Jett.jpg");
+    background-size: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+.tft{
+    background-image: url("Pengu.jpg");
+    background-size: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+

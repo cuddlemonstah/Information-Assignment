@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>What is Riot Games?</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <style>
+    img.LoL {
+      margin-top: 95%;
+      width: 300px;
+      float: center;
+    }
+    img.valoPic {
+      margin-top: 86%;
+      width: 200px;
+      float: center;
+    }
+    img.tftPic {
+      margin-top: 103%;
+      width: 300px;
+      float: center;
+    }
+    body {
+      background-image: white;
+      background-repeat: repeat;
+      background-attachment: fixed;
+      margin: 0;
+      padding: 0;
+    }
+
+    .about {
+      color: black;
+      font-size: 40px;
+      font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
+      text-align: center;
+      border-bottom: 2px;
+      border-color: white;
+      border-bottom-color: grey;
+      border-style: solid;
+      margin: 0 700px;
+    }
+
+    .games {
+      font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
+      color: white;
+      font-size: 40px;
+      text-align: center;
+      border-bottom: 2px;
+      border-color: #bd1d2e;
+      border-bottom-color: white;
+      border-style: solid;
+      margin: 20px 700px;
+    }
+
+    p.wasRiot {
+      font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
+      text-align: justify;
+      margin: 20px 250px;
+      font-size: 24px;
+    }
+    p.context {
+      text-align: justify;
+      margin: 0px 100px 0px;
+      font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
+      font-size: 24px;
+    }
+    h1 {
+      color: white;
+      font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
+      text-align: left;
+      margin-left: 120px;
+      padding: 0;
+      font-size: 40px;
+      font-weight: bold;
+      display: inline-block;
+    }
+    h2 {
+      text-align: left;
+      font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
+    }
+  </style>
+  <body>
+    <div class="header">
+      <h1>Riot Games</h1>
+    </div>
+    <div class="background">
+      <video class="bgVid" autoplay muted loop id="myVideo">
+        <source src="riotVid.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <div class="vidBorder"></div>
+    <div style="margin-top: 50px; text-align: center">
+      <video class="riotVid" autoplay muted loop id="myVideo">
+        <source src="riotVid.mp4" type="video/mp4" />
+      </video>
+      <h1 class="about">About</h1>
+      <p class="wasRiot">
+        Riot Games was founded in 2006 to develop, publish, and support the most
+        player-focused games in the world. In 2009, Riot released its debut
+        title, League of Legends, to worldwide acclaim. League has gone on to be
+        the most-played PC game in the world and a key driver of the explosive
+        growth of esports. With League in its second decade, Riot is continuing
+        to evolve the game while delivering new experiences to players with
+        Teamfight Tactics, Legends of Runeterra, VALORANT, League of Legends:
+        Wild Rift, Riot Forge, and multiple work-in-progress titles. <br />
+        <br />Riot is also expanding the world of Runeterra through multimedia
+        projects across music, comic books, board games, and Arcane, its
+        Emmy-winning animated series. Founded by Brandon Beck and Marc Merrill,
+        and led by CEO Nicolo Laurent, Riot is headquartered in Los Angeles,
+        California, and has 4,500+ Rioters in 20+ offices worldwide.
+      </p>
+      <ul>
+        <li style="margin-left: 250px; text-align: left">
+          <h2>League of Legends</h2>
+          <p class="context">
+            League of Legends is one of the world's most popular video games,
+            developed by Riot Games. It features a team-based competitive game
+            mode based on strategy and outplaying opponents. Players work with
+            their team to break the enemy Nexus before the enemy team breaks
+            theirs.
+          </p>
+        </li>
+        <li style="margin-left: 250px; text-align: left">
+          <h2>VALORANT</h2>
+          <p class="context">
+            Valorant is a team-based first-person tactical hero shooter set in
+            the near future. Players play as one of a set of Agents, characters
+            based on several countries and cultures around the world. In the
+            main game mode, players are assigned to either the attacking or
+            defending team with each team having five players on it.
+          </p>
+        </li>
+        <li style="margin-left: 250px; text-align: left">
+          <h2>Teamfight Tactics</h2>
+          <p class="context">
+            Master turn based strategy and arena combat in epic auto battles.
+            Queue up across a variety of chess-like social and competitive
+            multiplayer modes, then outsmart and outlast your enemies to take
+            your place at the top!
+          </p>
+        </li>
+      </ul>
+      <hr style="margin: 0 200px" />
+    </div>
+    <div style="background-color: #bd1d2e; text-align: center; padding: 0">
+      <h1 class="games">Games</h1>
+      <div class="gamelist">
+        <a href="https://www.leagueoflegends.com/en-ph/">
+          <div class="league">
+            <img class="LoL" src="LeagueLogo.png" alt="" />
+          </div>
+        </a>
+        <a href="https://playvalorant.com/">
+          <div class="valorant">
+            <img class="valoPic" src="Valorant.png" alt="" />
+          </div>
+        </a>
+        <a href="https://teamfighttactics.leagueoflegends.com/en-ph/">
+          <div class="tft">
+            <img class="tftPic" src="tft.png" alt="" />
+          </div>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
